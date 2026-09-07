@@ -18,5 +18,5 @@
 
 - [x] Repository visibility and name approved by the owner on 2026-09-06.
 - [x] Git author identity reviewed before the first commit.
-- [ ] First hosted GitHub Actions run passes.
-- [ ] Repository links work from a logged-out browser.
+- [x] First hosted GitHub Actions run passes.
+- [x] Repository links work from an anonymous checkout.

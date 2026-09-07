@@ -1,0 +1,18 @@
+[project]
+name = "localops-agent"
+version = "0.4.0"
+description = "Local-first evidence-bound personal operations agent with bounded context, mail, task, and approval tools"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+dependencies = []
+
+[project.scripts]
+localops = "localops_agent.cli:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]

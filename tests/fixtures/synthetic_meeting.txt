@@ -1,0 +1,6 @@
+Synthetic product sync. This file contains no private or real meeting content.
+
+We agreed the public demo must use synthetic data only.
+ACTION: Prepare the LocalOps architecture diagram | owner=Song | due=2026-08-20 | type=task
+ACTION: Research whether EventKit can create reminders with a review step | owner=Song | due=next week | type=research
+ACTION: Draft a message to the demo reviewer, but do not send it | owner=Song | type=message

@@ -1,0 +1,3 @@
+[submodule "skills/intake-skill"]
+	path = skills/intake-skill
+	url = https://github.com/grapeot/intake-skill.git

@@ -1,0 +1,29 @@
+name: Bug report
+description: Report a reproducible defect using synthetic data only.
+title: "[bug] "
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: Do not include real transcripts, mail, credentials, account identifiers, or private runtime traces.
+  - type: textarea
+    id: behavior
+    attributes:
+      label: Observed behavior
+      description: What happened, and what did you expect?
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Synthetic reproduction
+      description: Provide the smallest safe reproduction and relevant command output.
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: OS, Python version, and LocalOps commit.
+    validations:
+      required: true

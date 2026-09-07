@@ -1,0 +1,2 @@
+{"source_ref":"public-a","url":"https://example.com/a","title":"Synthetic Source A","published_at":"2026-08-01","text":"The synthetic benchmark reports a value of 10 units.","claim_key":"benchmark_value","claim_value":"10 units"}
+{"source_ref":"public-b","url":"https://example.org/b","title":"Synthetic Source B","published_at":"2024-01-01","text":"A separate synthetic benchmark reports a value of 12 units.","claim_key":"benchmark_value","claim_value":"12 units"}

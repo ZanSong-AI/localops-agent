@@ -1,0 +1,15 @@
+{
+  "action_type": "email_send",
+  "payload": {
+    "recipient": "reviewer@example.com",
+    "subject": "Synthetic review",
+    "body": "This is a synthetic candidate message."
+  },
+  "evidence": [
+    {
+      "source_ref": "synthetic-action-source",
+      "evidence_quote": "Please acknowledge the synthetic review request.",
+      "source_text": "Please acknowledge the synthetic review request. Do not send automatically."
+    }
+  ]
+}
